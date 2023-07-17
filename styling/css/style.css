@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  font-family: monospace;
+  margin: 0px;
+  background-color: #300046 !important;
+  background-image: linear-gradient(315deg, #3b265e 0%, #6423cc 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh; }
+  body input {
+    color: #2a2a72;
+    border: 2px solid #2a2a72;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: all .25s ease;
+    color: #009ffd;
+    margin: 15px; }
+  body input:focus {
+    background-color: #ffffff;
+    outline: none; }
+  body main .card {
+    border-radius: 50px;
+    background-color: #1201a8;
+    background-image: linear-gradient(315deg, #3b2066 0%, #4c11ac 74%);
+    box-shadow: 5px 10px 50px #39396e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 15px; }
+    body main .card .img-container {
+      text-align: center;
+      margin-bottom: 2.7rem; }
+      body main .card .img-container img {
+        border-radius: 50%;
+        max-width: 40%;
+        border: 5px solid #300046; }
+    body main .card .text-container {
+      flex: 7;
+      color: #eee;
+      margin-left: 1.2rem;
+      padding: 10px; }
+      body main .card .text-container .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        max-width: 400px;
+        list-style-type: none; }
+        body main .card .text-container .info li {
+          display: flex;
+          align-items: center; }
+          body main .card .text-container .info li i {
+            margin-right: 5px; }
+          body main .card .text-container .info li strong {
+            font-size: 1rem;
+            margin-left: 5px; }
+      body main .card .text-container h4 {
+        margin-bottom: 1.5rem; }
+      body main .card .text-container .repo {
+        background-color: #2a2a72;
+        border-radius: 5px;
+        display: inline-block;
+        color: #ffffff;
+        font-size: 1rem;
+        margin-left: .5rem;
+        margin-bottom: .5rem;
+        padding: .25rem .5rem;
+        transition: all .5s ease; }
+      body main .card .text-container .repo:hover {
+        background-color: #ffffff;
+        color: #2a2a72; }
+
+/*# sourceMappingURL=style.css.map */
